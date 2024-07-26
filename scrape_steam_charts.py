@@ -23,8 +23,8 @@ async def fetch_monthly_player_counts(appid):
     peak_players = []
     
     if table:
-        rows = table.find_all('tr')
-        for row in rows[1:]:
+        rows = table.find('tbody').find_all('tr')
+        for row in rows:
             cols = row.find_all('td')
             if len(cols) >= 5:
                 date_text = cols[0].text.strip()
@@ -33,7 +33,7 @@ async def fetch_monthly_player_counts(appid):
                 dates.append(date_text)
                 avg_players.append(cols[1].text.strip().replace(',', ''))
                 gain.append(cols[2].text.strip().replace(',', ''))
-                percent_gain.append(cols[3].text.strip().replace('%', '').replace('+', ''))
+                percent_gain.append(cols[3].text.strip().replace('%', '').replace('+', '').replace(',', ''))
                 peak_players.append(cols[4].text.strip().replace(',', ''))
     
     time.sleep(2)  # Respectful rate limiting
@@ -53,9 +53,13 @@ async def main():
     
     df.dropna(subset=['Date'], inplace=True)  # Remove rows with invalid dates
     
+    # Sort by Date to ensure chronological order
+    df.sort_values(by='Date', inplace=True)
+    
     df.to_csv('The_Isle_monthly_player_counts.csv', index=False)
     print("Saved The Isle monthly player counts to CSV.")
 
 # Run the script
 asyncio.run(main())
+
 
