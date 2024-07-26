@@ -77,3 +77,11 @@ The aim of our project is to investigate the impact of major game updates on pla
   - Data collection, cleanup, and exploration
   - Analysis approach and findings
   - Conclusions and recommendations
+
+  ## Credits
+
+### Data Sources
+The data used in this project was gathered from the following sources:
+- **The Isle**: [The Isle Steam Charts](https://steamcharts.com/app/376210)
+- **Ark: Survival Evolved**: [Ark: Survival Evolved Steam Charts](https://steamcharts.com/app/346110)
+- **No Man's Sky**: [No Man's Sky Steam Charts](https://steamcharts.com/app/275850)
