@@ -2,8 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 
-# URL of the Steam Charts page for The Isle
-url = "https://steamcharts.com/app/376210" 
+# URL of the Steam Charts page for Ark now since we have the Isle
+url = "https://steamcharts.com/app/346110" 
 
 # Fetch the page content
 response = requests.get(url)
@@ -33,6 +33,6 @@ for row in table.tbody.find_all('tr'):
 df = pd.DataFrame(data, columns=['Month', 'Avg Players', 'Peak Players'])
 
 # Save the DataFrame to a CSV file
-df.to_csv('the_isle_player_data.csv', index=False)
+df.to_csv('ark_evolved_player_data.csv', index=False)
 
-print("Data has been successfully scraped and saved to 'the_isle_player_data.csv'")
+print("Data has been successfully scraped and saved to 'ark__evolved_player_data.csv'")
