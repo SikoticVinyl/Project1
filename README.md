@@ -1,9 +1,23 @@
 # Impact of Game Updates on Player Retention
 
 ## Project Overview
-This project aims to investigate the impact of major game updates on player retention and activity levels in three selected games: The Isle, ARK: Survival Evolved, and No Man's Sky. By analyzing player count data and update logs, the project will provide insights into how different types and frequencies of updates affect player engagement.
+The aim of our project is to investigate the impact of major game updates on player retention and activity levels in three selected games: The Isle, ARK: Survival Evolved, and No Man's Sky. By analyzing player count data, update logs, and reviews, we aim to uncover patterns and provide insights into how different types and frequencies of updates affect player engagement.
 
-## Main Questions
+## Team Members
+- Dana
+- Nathan
+- Chace
+
+## Scope and Purpose
+### Data Field
+- **Field:** Gaming
+
+### Data Types
+- **Player count data over time**
+- **Game update logs**
+- **User reviews in relation to update times**
+
+### Questions to Explore
 1. **General Impact of Updates on Player Retention:**
    - How do major updates affect the player count in the days and weeks following the update?
    - Is there a noticeable increase or decrease in player retention immediately after an update?
@@ -20,6 +34,11 @@ This project aims to investigate the impact of major game updates on player rete
    - How do player retention trends following updates compare between The Isle, ARK: Survival Evolved, and No Man's Sky?
    - Are there differences in how frequent or less frequent updates affect player counts across these games?
 
+### Possible Data Sources
+- **Steam API:** For player count data
+- **Official game websites and forums:** For update logs
+- **Steam reviews:** For user reviews related to update times
+
 ## Work To-Dos
 
 ### Project Planning and Setup
@@ -33,17 +52,18 @@ This project aims to investigate the impact of major game updates on player rete
   - ARK: Survival Evolved
   - No Man's Sky
 - **[ ] Scrape or collect update logs from official sources.**
+- **[ ] Collect reviews in relation to update times.**
 
 ### Data Preprocessing and Cleaning
 - **[ ] Clean and preprocess player activity data.**
 - **[ ] Align update logs with player activity data.**
-- **[ ] Categorize updates into types (new content, bug fixes, etc.).**
+- **[ ] Categorize updates into types (new content, bug fixes, balances.) Exclude small patches / hot patches.**
 
 ### Data Analysis
 - **[ ] Conduct exploratory data analysis (EDA).**
 - **[ ] Perform impact analysis on player activity before and after updates.**
 - **[ ] Analyze the impact of different update types on player retention.**
-- **[ ] Use statistical tests (t-tests, ANOVA) for significance.**
+- **[ ] Test.**
 - **[ ] Create visualizations to support findings.**
 
 ### Documentation
@@ -57,4 +77,3 @@ This project aims to investigate the impact of major game updates on player rete
   - Data collection, cleanup, and exploration
   - Analysis approach and findings
   - Conclusions and recommendations
-- **[ ] Rehearse presentation.**
