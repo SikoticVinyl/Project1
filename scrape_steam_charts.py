@@ -2,8 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 
-# URL of the Steam Charts page for Ark now since we have the Isle
-url = "https://steamcharts.com/app/275850" 
+# URL of the Page to Scrape - steam charts as placeholder from prior use
+url = "https://steamcharts.com/app/[insert app id here]" 
 
 # Fetch the page content
 response = requests.get(url)
@@ -33,6 +33,6 @@ for row in table.tbody.find_all('tr'):
 df = pd.DataFrame(data, columns=['Month', 'Avg Players', 'Peak Players'])
 
 # Save the DataFrame to a CSV file
-df.to_csv('nomansky_player_data.csv', index=False)
+df.to_csv('[example_name].csv', index=False)
 
-print("Data has been successfully scraped and saved to 'nomansky_player_data.csv'")
+print("Data has been successfully scraped and saved to '[example_name].csv'")
