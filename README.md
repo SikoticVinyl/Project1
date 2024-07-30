@@ -43,16 +43,16 @@ The aim of our project is to investigate the impact of major game updates on pla
 
 ### Project Planning and Setup
 - **[ ] Define objectives and key questions.**
-- **[ ] Create GitHub repository and initial README.**
+- **[x] Create GitHub repository and initial README.**
 
 ### Data Collection
-- **[ ] Obtain Steam API key.**
-- **[ ] Fetch global player count data for each game:**
+- **[x] Obtain Steam API key.**
+- **[x] Fetch global player count data for each game:**
   - The Isle
   - ARK: Survival Evolved
   - No Man's Sky
 - **[ ] Scrape or collect update logs from official sources.**
-- **[ ] Collect reviews in relation to update times.**
+- **[x] Collect reviews.**
 
 ### Data Preprocessing and Cleaning
 - **[ ] Clean and preprocess player activity data.**
@@ -77,3 +77,22 @@ The aim of our project is to investigate the impact of major game updates on pla
   - Data collection, cleanup, and exploration
   - Analysis approach and findings
   - Conclusions and recommendations
+
+  ## Credits
+
+### Data Sources
+
+The data used in this project was gathered from the following sources:
+
+- **The Isle**: 
+  - [The Isle Steam Charts](https://steamcharts.com/app/376210)
+  - [The Isle Update Logs](https://survivetheark.com/index.php?/forums/topic/166421-archived-pc-patch-notes/)
+  - Steam API update history and reviews
+
+- **Ark: Survival Evolved**:
+  - [Ark: Survival Evolved Steam Charts](https://steamcharts.com/app/346110)
+  - Steam API Reviews
+
+- **No Man's Sky**:
+  - [No Man's Sky Steam Charts](https://steamcharts.com/app/275850)
+  - Steam API update history and reviews
