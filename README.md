@@ -43,11 +43,11 @@ The aim of our project is to investigate the impact of major game updates on pla
 
 ### Project Planning and Setup
 - **[ ] Define objectives and key questions.**
-- **[ ] Create GitHub repository and initial README.**
+- **[x] Create GitHub repository and initial README.**
 
 ### Data Collection
-- **[ ] Obtain Steam API key.**
-- **[ ] Fetch global player count data for each game:**
+- **[x] Obtain Steam API key.**
+- **[x] Fetch global player count data for each game:**
   - The Isle
   - ARK: Survival Evolved
   - No Man's Sky
