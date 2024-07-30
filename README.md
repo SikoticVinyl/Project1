@@ -51,7 +51,7 @@ The aim of our project is to investigate the impact of major game updates on pla
   - The Isle
   - ARK: Survival Evolved
   - No Man's Sky
-- **[ ] Scrape or collect update logs from official sources.**
+- **[x] Collected update logs from official sources and SteamAPI**
 - **[x] Collect reviews.**
 
 ### Data Preprocessing and Cleaning
@@ -86,11 +86,11 @@ The data used in this project was gathered from the following sources:
 
 - **The Isle**: 
   - [The Isle Steam Charts](https://steamcharts.com/app/376210)
-  - [The Isle Update Logs](https://survivetheark.com/index.php?/forums/topic/166421-archived-pc-patch-notes/)
   - Steam API update history and reviews
 
 - **Ark: Survival Evolved**:
   - [Ark: Survival Evolved Steam Charts](https://steamcharts.com/app/346110)
+  - [Ark Update Logs](https://survivetheark.com/index.php?/forums/topic/166421-archived-pc-patch-notes/)
   - Steam API Reviews
 
 - **No Man's Sky**:
