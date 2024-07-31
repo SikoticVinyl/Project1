@@ -55,9 +55,9 @@ The aim of our project is to investigate the impact of major game updates on pla
 - **[x] Collect reviews.**
 
 ### Data Preprocessing and Cleaning
-- **[ ] Clean and preprocess player activity data.**
-- **[ ] Align update logs with player activity data.**
-- **[ ] Categorize updates into types (new content, bug fixes, balances.) Exclude small patches / hot patches.**
+- **[ ] Clean and preprocess player activity data.** Chace
+- **[ ] Align update logs with player activity data.** Dana
+- **[ ] Categorize updates into types (new content, bug fixes, balances.) Exclude small patches / hot patches.** Nathan
 
 ### Data Analysis
 - **[ ] Conduct exploratory data analysis (EDA).**
